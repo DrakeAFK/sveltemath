@@ -26,7 +26,7 @@
 </div>
 
 <div class="text-center py-5">
-  <input type="text" id="result" disabled>
+  <input type="text" id="result" class="py-3 text-center" disabled>
 </div>
 
 <div class="text-center">
@@ -55,7 +55,7 @@
     <button class="border border-primary rounded-xl w-[5rem]" on:click={() => appendToResult("/")}>/</button>
   </div>
   <div class="grid-col-3 space-x-5 pb-5">
-    <button class="border border-success rounded-xl w-[5rem]" on:click={() => clearResult()}>C</button>
+    <button class="border border-success rounded-xl w-[5rem]" on:click={() => clearResult()}>Clear</button>
     <button class="border border-success rounded-xl w-[5rem]" on:click={() => calculateResult()}>=</button>
   </div>
 </div>
